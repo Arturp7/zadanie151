@@ -10,7 +10,6 @@ public class FileReader {
     Map<String, Country> readCountries() throws FileNotFoundException {
         String fileName = "Countries.csv";
         Scanner scanner = new Scanner(new File(fileName));
-
         Map<String, Country> readCountries = new TreeMap<>();
         while (scanner.hasNextLine()) {
             String nextLine = scanner.nextLine();
