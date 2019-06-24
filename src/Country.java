@@ -2,9 +2,9 @@ import java.util.Objects;
 
 public class Country {
 
-    String code;
-    String name;
-    int population;
+    private String code;
+    private String name;
+    private int population;
 
     public Country() {
 
